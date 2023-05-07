@@ -14,8 +14,68 @@ tlačítko facebook         #3b5998
 tlačítko twitter          #1da1f2
 */
 
-
-body {
-  background-color: #bdc3c7;
+body {background-color: #bdc3c7;
 }
 
+.foto {width: 300px; 
+        position: relative;
+}
+
+.logo {background-color: #b92e81;
+        border-radius:  50%;
+        position: absolute; 
+        top: 180px; 
+        left: 230px;
+}
+
+h1 {width: 300px; color: white; 
+    font-family:monospace;
+}
+
+p {color: #bdc3c7; 
+    width: 300px;  
+    text-align: left;
+}
+
+.profil {width: 300px; height: 574px;
+          background-color: #31363b;
+}
+
+.obsah {padding: 12px;
+}
+
+.portfolio {color:#bdc3c7;
+            font-family: monospace;
+            text-align: center; display: block;
+}
+
+.facebook {color:#bdc3c7;
+          font-family: monospace; 
+          display: inline-block; 
+          padding: 25px;
+}
+
+.twitter {color:#bdc3c7;
+          font-family: monospace; 
+          display: inline-block; 
+          padding: 25px;
+}
+
+.odkazy {color: #bdc3c7;         
+}
+
+.odkazy a {text-decoration: none;
+            color: #bdc3c7; 
+            font-weight: bold;
+            border: 1px solid #3f464d; 
+            padding: 10px;
+}
+
+.portfolio a:hover {background-color:#e74c3c;
+}
+
+.facebook a:hover {background-color: #3b5998;
+}
+
+.twitter a:hover {background-color: #1da1f2;
+}
